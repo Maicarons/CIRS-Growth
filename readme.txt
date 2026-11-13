@@ -1,13 +1,13 @@
                 ******************************
-                *   Renewed Village Growth   *
+                *        CIRS Growth        *
                 *  A GameScript for OpenTTD  *
                 ******************************
 
-Version: 12.1
+Version: 13.0
 
 Usefull URL's:
-- forum topic: https://www.tt-forums.net/viewtopic.php?f=65&t=87052
-- github: https://github.com/F1rrel/RenewedVillageGrowth
+- repository: https://github.com/Maicarons/RenewedVillageGrowth
+- upstream:   https://github.com/F1rrel/RenewedVillageGrowth
 
 
 Content:
@@ -21,10 +21,10 @@ Content:
 
 1. How the script works
 
-Renewed Village Growth (RVG) is a game script which changes the way towns
+CIRS Growth is a game script which changes the way towns
 grow in OTTD. Various cargo requirements and passenger/mail percentage
 transported are defined - monthly - for each town. Towns only grow
-if those requirements are - partially or completely - satisfied. RVG
+if those requirements are - partially or completely - satisfied. CIRS Growth
 supports all industry sets.
 
 The script only defines requirements for towns who are exchanging
@@ -269,18 +269,19 @@ they can safely be changed while the game is running:
   (you can find it on BaNaNaS, also accessible through OTTD's "Online 
   Content").
 - Industry sets: you can use any industry NewGRF
-    - these are specifically supported industry NewGRF: Baseset
-    (all climates), FIRS 1.4, 2, 3, 4.3, 5 (all economies), ECS 1.2
+    - these are specifically supported industry NewGRF: CIRS
+    (all six economies), Baseset (all climates), FIRS 1.4, 2, 3, 4.3, 5
+    (all economies), ECS 1.2
     (any combination), YETI 0.1.6 (all except Simplified),
     NAIS 1.0.6, ITI 1.6, 2.14, XIS 0.6 AXIS 2.2, OTIS 05, IOTC 0.1,
     LJI 0.1, WRBI 1200, Real Beta, Minimalist, PIRS 2022.
-  Using RVG with any other unsupported industry set will contain
+  Using CIRS Growth with any other unsupported industry set will contain
   proceduraly generated categories
 
 
 4. License
 
-Renewed Village Growth is free software; you can redistribute it and/or
+CIRS Growth is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License as
 published by the Free Software Foundation, version 2 of the License
 (see file license.txt).
@@ -288,7 +289,8 @@ published by the Free Software Foundation, version 2 of the License
 
 5. Credits
 
-Author: Firrel
+Original author: Firrel (CIRS Growth)
+CIRS adaptation: Maicarons
 
 Thanks to:
 - keoz for the Renewed City Growth GS

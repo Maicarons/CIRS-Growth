@@ -3,6 +3,7 @@
 
 function InitIndustryLists()
 {
+    local public_services = GetPassengerMailSlots();
     local industry_type_list = GSIndustryTypeList();
 
     local list_raw = [];
@@ -12,8 +13,8 @@ function InitIndustryLists()
     local list_4 = [];
     foreach (industry, _ in industry_type_list) {
         local cargo_list = GSIndustryType.GetAcceptedCargo(industry);
-        cargo_list.RemoveItem(0); // exclude PASS
-        cargo_list.RemoveItem(2); // exclude MAIL
+        cargo_list.RemoveItem(public_services[0]); // exclude PASS
+        cargo_list.RemoveItem(public_services[1]); // exclude MAIL
 
         switch (cargo_list.Count())
         {
@@ -76,7 +77,7 @@ function InitIndustryLists()
             ::CargoIDList.append(GSCargo.GetCargoLabel(i));
     }
 
-    ::CargoLimiter <- [0, 2];
+    ::CargoLimiter <- [public_services[0], public_services[1]];
     ::CargoCatNum <- (list_4.len() > 0 || (list_3.len() > 6 && (list_1.len() + list_raw.len()) > 9)) ? 5 : 4;
     ::Economy <- DiscoverEconomyType();
 
@@ -445,14 +446,15 @@ function RandomizeIndustry(ascending, near_industries, near_industry_probability
 
 function GetCargoCatFromIndustryCat(industry_cat)
 {
-    local cargo_cat = [[0, 2]];
+    local public_services = GetPassengerMailSlots();
+    local cargo_cat = [[public_services[0], public_services[1]]];
     foreach (cat_idx, cat in industry_cat) {
         cargo_cat.append([]);
         foreach (ind_idx, ind in cat) {
             local cargo_list = GSIndustryType.GetAcceptedCargo(ind);
             foreach (cargo, _ in cargo_list) {
                 // Ignore PASS and MAIL
-                if (cargo == 0 || cargo == 2)
+                if (cargo == public_services[0] || cargo == public_services[1])
                     continue;
 
                 local found = false;
@@ -687,6 +689,7 @@ function GetNearbyIndustriesToTowns()
 
 function GetTownsNearbyIndustryPerCategory()
 {
+    local public_services = GetPassengerMailSlots();
     local town_industries = GetNearbyIndustriesToTowns();
     local town_industry_category = {};
 
@@ -702,8 +705,8 @@ function GetTownsNearbyIndustryPerCategory()
 
             // Determine the category of this industry type
             local cargo_list = GSIndustryType.GetAcceptedCargo(industry_type_id);
-            cargo_list.RemoveItem(0); // exclude PASS
-            cargo_list.RemoveItem(2); // exclude MAIL
+            cargo_list.RemoveItem(public_services[0]); // exclude PASS
+            cargo_list.RemoveItem(public_services[1]); // exclude MAIL
             local category = -1;
             switch (cargo_list.Count())
             {

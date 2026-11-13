@@ -36,7 +36,7 @@ STR_SB_WARNING_1         :На карте больше городов, чем с
 STR_SB_WARNING_2         :Инициализация списка грузов не удалась.Он был вызван неизвестной отраслью Newgrf, для которой было невозможно создать процедурное составление списка грузов. {RED}Игровой сценарий выключен.{BLACK}
 STR_SB_WARNING_3         :Инициализация списка грузов не удалась.Это было вызвано вариантом рандомизации отрасли, для которого категории процедурной отрасли не могли быть созданы. {RED}Игровой сценарий выключен.{BLACK}
 STR_SB_WARNING_4         :Вы должны установить параметр{ORANGE}Окружающая среда-> Города-> Скорость роста города{BLACK}на что -то другое, кроме ничего. {RED}Игровой сценарий выключен.{BLACK}
-STR_SB_WELCOME_DESC      :{SILVER}Renewed Village Growth (RVG){BLACK} это сценарий игры, который {ORANGE} меняет способ роста городов {BLACK} в OpenTTD.Для каждого города определены различные требования к грузу, которые должны выполняться - частично или полностью - ежемесячно, чтобы города росли быстрее. Более подробную информацию можно найти в файле {ORANGE} Readme {BLACK}.
+STR_SB_WELCOME_DESC      :{SILVER}CIRS Growth{BLACK} это сценарий игры, который {ORANGE} меняет способ роста городов {BLACK} в OpenTTD.Для каждого города определены различные требования к грузу, которые должны выполняться - частично или полностью - ежемесячно, чтобы города росли быстрее. Более подробную информацию можно найти в файле {ORANGE} Readme {BLACK}.
 STR_SB_WELCOME_CARGO     :Экономика {SILVER}{STRING}{BLACK} состоит из {SILVER}{NUM} категорий{BLACK}.Чтобы соответствовать категории, доставьте один или несколько грузов, относящихся к определенной категории, на станцию {ORANGE} недалеко от города, которая принимает груз этого типа{BLACK}. Выполните указанные выше требования {SILVER}{NUM}%{BLACK}, чтобы {ORANGE} ускорял рост городов{BLACK}. Более подробная информация о категориях грузов приведена на странице сборника рассказов {ORANGE}Категории грузов {BLACK}.
 STR_SB_WELCOME_LIMIT_GROWTH         :{SILVER}{CARGO_LIST}{BLACK} из этого города могут {ORANGE}остановить развитие{BLACK}.  Перевози по крайней мере {SILVER}{NUM}%{BLACK} этих типов грузов {ORANGE}, чтобы обеспечить рост города{BLACK}. {STRING}
 STR_SB_WELCOME_LIMIT_GROWTH_DELAY   :Рост прекращается после {SILVER}{NUM} месяцев {BLACK} невыполнения этого требования.
@@ -77,3 +77,11 @@ STR_TOWNBOX_NOGROWTH            :Перевозите {SILVER}{CARGO_LIST}{BLACK
 STR_ETERNAL_LOVE_OUTSTANDING    :Великолепный
 STR_ETERNAL_LOVE_GOOD           :Хороший
 STR_ETERNAL_LOVE_POOR           :Плохой
+
+##### CIRS ECONOMIES #####
+STR_ECONOMY_CIRS_BASIC_TEMPERATE:CIRS Temperate Basic
+STR_ECONOMY_CIRS_BASIC_ARCTIC   :CIRS Arctic Basic
+STR_ECONOMY_CIRS_BASIC_TROPIC   :CIRS Tropic Basic
+STR_ECONOMY_CIRS_IAHC           :CIRS In A Hot Country
+STR_ECONOMY_CIRS_STEELTOWN      :CIRS Steeltown
+STR_ECONOMY_CIRS_MILD_MILD_WEST :CIRS Mild Mild West

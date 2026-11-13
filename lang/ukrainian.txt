@@ -46,8 +46,8 @@ STR_SB_WARNING_1         :На карті більше міст, ніж може
 STR_SB_WARNING_2         :Не вдалося ініціалізувати список вантажів. Це сталося через невідомий промисловий newGRF, для якого неможливо створити процедурний список вантажів. {RED}Ігровий скрипт вимкнено.{BLACK}
 STR_SB_WARNING_3         :Не вдалося ініціалізувати список вантажів. Це сталося через опцію рандомізації промисловості, для якої неможливо створити процедурні промислові категорії. {RED}Ігровий скрипт вимкнено.{BLACK}
 STR_SB_WARNING_4         :Ви повинні встановити параметр {ORANGE}Середовище->Міста->Швидкість зростання міст{BLACK} на щось інше, ніж Жодна. {RED}Ігровий скрипт вимкнено.{BLACK}
-STR_SB_WELCOME_TITLE     :Renewed Village Growth {NUM}.{NUM}
-STR_SB_WELCOME_DESC      :{SILVER}Renewed Village Growth (RVG){BLACK} - це ігровий скрипт, який {ORANGE}змінює спосіб зростання міст{BLACK} в OpenTTD. Для кожного міста визначено різні вимоги до вантажів, які потрібно - частково або повністю - щомісячно задовольняти, щоб міста росли швидше. Більше інформації можна знайти в {ORANGE}файлі Readme{BLACK}.
+STR_SB_WELCOME_TITLE     :CIRS Growth {NUM}.{NUM}
+STR_SB_WELCOME_DESC      :{SILVER}CIRS Growth{BLACK} - це ігровий скрипт, який {ORANGE}змінює спосіб зростання міст{BLACK} в OpenTTD. Для кожного міста визначено різні вимоги до вантажів, які потрібно - частково або повністю - щомісячно задовольняти, щоб міста росли швидше. Більше інформації можна знайти в {ORANGE}файлі Readme{BLACK}.
 STR_SB_WELCOME_CARGO     :Економіка {SILVER}{STRING}{BLACK} складається з {SILVER}{NUM} категорій{BLACK}. Щоб виконати категорію, доставте один або кілька специфічних для категорії вантажів на {ORANGE}станцію поблизу міста, яка приймає цей тип вантажу{BLACK}. Виконайте вимоги вище {SILVER}{NUM}%{BLACK}, щоб {ORANGE}міста росли швидше{BLACK}. Більше інформації про категорії вантажів показано на сторінці {ORANGE}Категорії вантажів{BLACK} книги історій.
 STR_SB_WELCOME_LIMIT_GROWTH         :Транспорт {SILVER}{CARGO_LIST}{BLACK} з цього міста може {ORANGE}зупинити зростання міста{BLACK}. Транспортуйте принаймні {SILVER}{NUM}%{BLACK} цих типів вантажів, щоб {ORANGE}дозволити зростання міста{BLACK}. {STRING}
 STR_SB_WELCOME_LIMIT_GROWTH_DELAY   :Зростання зупиняється після {SILVER}{NUM} місяців{BLACK} невиконання цієї вимоги.
@@ -152,6 +152,12 @@ STR_ECONOMY_ITI2                :Покращені міські індустр�
 STR_ECONOMY_REAL                :Реальні індустрії
 STR_ECONOMY_MINIMALIST          :Мінімалістичні індустрії
 STR_ECONOMY_PIRS                :Набір переробних індустрій Пікки (PIRS 2022)
+STR_ECONOMY_CIRS_BASIC_TEMPERATE:CIRS Temperate Basic
+STR_ECONOMY_CIRS_BASIC_ARCTIC   :CIRS Arctic Basic
+STR_ECONOMY_CIRS_BASIC_TROPIC   :CIRS Tropic Basic
+STR_ECONOMY_CIRS_IAHC           :CIRS In A Hot Country
+STR_ECONOMY_CIRS_STEELTOWN      :CIRS Steeltown
+STR_ECONOMY_CIRS_MILD_MILD_WEST :CIRS Mild Mild West
 
 ##### ETERNAL LOVE #####
 STR_ETERNAL_LOVE_OUTSTANDING    :відмінного

@@ -13,7 +13,7 @@ from pathlib import Path
 # ----------------------------------
 
 # Game Script name
-gs_name = "Renewed_Village_Growth"
+gs_name = "CIRS_Growth"
 
 # ----------------------------------
 
@@ -23,15 +23,15 @@ mainversion = -1
 subversion = -1
 with open("version.nut", 'r+') as file:
     for line in file:
-        r = re.search('SELF_MAJORVERSION\s+<-\s+([0-9]+)', line)
+        r = re.search(r'SELF_MAJORVERSION\s+<-\s+([0-9]+)', line)
         if(r != None):
             mainversion = r.group(1)
-        r2 = re.search('SELF_MINORVERSION\s+<-\s+([0-9]+)', line)
+        r2 = re.search(r'SELF_MINORVERSION\s+<-\s+([0-9]+)', line)
         if(r2 != None):
             subversion = r2.group(1)
 
 if(mainversion == -1 or subversion == -1):
-    print("Couldn't find " + gs_name + " version in info.nut!")
+    print("Couldn't find " + gs_name + " version in version.nut!")
     exit(-1)
 
 tmp_dir = gs_name + "-" + str(mainversion) + "." + str(subversion)

@@ -1,6 +1,7 @@
 /*
- * This file is part of Renewed Village Growth, a GameScript for OpenTTD.
- * Credits keoz (Renewed City Growth), Sylf (City Growth Limiter)
+ * This file is part of CIRS Growth, a GameScript for OpenTTD.
+ * Credits: keoz (Renewed City Growth), Sylf (City Growth Limiter),
+ *          Firrel (Renewed Village Growth). CIRS adaptation by Maicarons.
  *
  * It's free software: you can redistribute it and/or modify it under
  * the terms of the GNU General Public License as published by the
@@ -13,11 +14,11 @@ require("version.nut");
 
 class MainClass extends GSInfo
     {
-    function GetAuthor()                { return "Firrel"; }
-    function GetName()                  { return "Renewed Village Growth"; }
-    function GetShortName()             { return "REVI"; }
-    function GetDescription()           { return "Towns require various cargo deliveries to grow. Required cargos can be randomized. Town growth is limited by percentage of transported specific cargos. Supporting most Industry NewGRF sets."; }
-    function GetURL()                   { return "https://www.tt-forums.net/viewtopic.php?f=65&t=87052"; }
+    function GetAuthor()                { return "Firrel, Maicarons (CIRS adaptation)"; }
+    function GetName()                  { return "CIRS Growth"; }
+    function GetShortName()             { return "CIGR"; }
+    function GetDescription()           { return "Towns require various cargo deliveries to grow. Required cargos can be randomized. Town growth is limited by percentage of transported specific cargos. Adapted for the CIRS industry NewGRF set. Based on Renewed Village Growth by Firrel."; }
+    function GetURL()                   { return "https://github.com/Maicarons/RenewedVillageGrowth"; }
     function GetVersion()               { return SELF_VERSION; }
     function GetDate()                  { return SELF_DATE; }
     function GetAPIVersion()            { return "14"; }

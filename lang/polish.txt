@@ -55,3 +55,11 @@ STR_TOWNBOX_CARGO_STOP          :Zbyt mało towaru wywiezionego z miasta:{} * {R
 STR_TOWNBOX_CARGO_LOW           :Zbyt mało towaru wywiezionego z miasta:{} * {SILVER}{CARGO_LIST}{BLACK}{}Kategorie towarów:
 STR_TOWNBOX_CARGO_DELAYED       :Zbyt mało towaru wywiezionego z miasta:{} * {GOLD}{CARGO_LIST}{BLACK}{}Kategorie towarów:
 STR_TOWNBOX_NOGROWTH            :Wywieź następujące towary z miasta, aby mogło rosnąć: {SILVER}{CARGO_LIST}{BLACK}.
+
+##### CIRS ECONOMIES #####
+STR_ECONOMY_CIRS_BASIC_TEMPERATE:CIRS Temperate Basic
+STR_ECONOMY_CIRS_BASIC_ARCTIC   :CIRS Arctic Basic
+STR_ECONOMY_CIRS_BASIC_TROPIC   :CIRS Tropic Basic
+STR_ECONOMY_CIRS_IAHC           :CIRS In A Hot Country
+STR_ECONOMY_CIRS_STEELTOWN      :CIRS Steeltown
+STR_ECONOMY_CIRS_MILD_MILD_WEST :CIRS Mild Mild West

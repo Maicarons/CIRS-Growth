@@ -1,4 +1,11 @@
-*** Renewed Village Growth GS Changelog ***
+*** CIRS Growth GS Changelog ***
+Version 13.0 (2026/11/14)
+- new: Full support for the CIRS industry NewGRF set (6 economies: Temperate
+  Basic, Arctic Basic, Tropic Basic, In A Hot Country, Steeltown, Mild Mild West)
+- new: passenger and mail cargo slots are now detected by cargo label, so
+  economies with non-standard cargo IDs work in every randomization mode
+- mod: Renamed from "Renewed Village Growth" to "CIRS Growth"
+
 
 Version 12.1 (2025/07/12)
 - new: Ukrainian translation (mortiy)

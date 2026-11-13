@@ -40,7 +40,7 @@ STR_SB_WARNING_1         :Na mapě sa nachází víc měst než je hrací skript
 STR_SB_WARNING_2         :Inicializáce seznamu druhú zboží selhala. Bylo to spůsobeno neznámým typem newGRF průmyslu pro které procedurálně generování kategorií zboží není možné. {RED}Hrací skript se vypíná.{BLACK}
 STR_SB_WARNING_3         :Inicializáce seznamu druhú zboží selhala. Bylo to spůsobeno náhodnou tvorbou kategorií sboží podle průmyslových vstupů, pričem pro tento typ newGRF průmyslu není taková náhodní tvorba kategorií možná. {RED}}Hrací skript se vypíná.{BLACK}
 STR_SB_WARNING_4         :Parametr {ORANGE}Prostředí->Města->Rychlost růstu měst{BLACK} musí být nastaveno na jinou hodnotu než na nulová. {RED}Hrací skript se vypíná.{BLACK}
-STR_SB_WELCOME_DESC      :{SILVER}Renewed Village Growth (RVG){BLACK} je hrací skript, který {ORANGE}mění jak rostou města{BLACK} v OpenTTD. Každé město má definováno různe požadavky na dodávano zboží, které musá být - částečne nebo plne - měsíčne splňováno, aby mohli městá rychleji růst. Více informací se dá najít v {ORANGE}Readme souboru{BLACK}.
+STR_SB_WELCOME_DESC      :{SILVER}CIRS Growth{BLACK} je hrací skript, který {ORANGE}mění jak rostou města{BLACK} v OpenTTD. Každé město má definováno různe požadavky na dodávano zboží, které musá být - částečne nebo plne - měsíčne splňováno, aby mohli městá rychleji růst. Více informací se dá najít v {ORANGE}Readme souboru{BLACK}.
 STR_SB_WELCOME_CARGO     :Průmysl {SILVER}{STRING}{BLACK} pozestáva z {SILVER}{NUM} kategorií{BLACK}. Na splnění kategorie, dovez jeden nebo více zadefinovaných typů zboží pro danou kategorii do {ORANGE}stanice blízko daného města, která přijímá daný typ zboží{BLACK}. Splň požiadavky alespoň nad {SILVER}{NUM}%{BLACK} aby {ORANGE}město rástlo rychleji{BLACK}. Více informací ohledně akceptovaných kategorií jsou zobrazené v {ORANGE}Kategorie nákladu globální knihy příbéhú{BLACK}.
 STR_SB_WELCOME_LIMIT_GROWTH         :{SILVER}{CARGO_LIST}{BLACK} z tohto města dokáží {ORANGE}zastavit růst města{BLACK}. Převez alespoň {SILVER}{NUM}%{BLACK} těchto typů zboží vytvořeného v tomto městě pro {ORANGE}povolení růstu města{BLACK}. {STRING}
 STR_SB_WELCOME_LIMIT_GROWTH_DELAY   :Růst města se zastaví po {SILVER}{NUM} měsíc{P i ích}{BLACK} bez splnění týto požadavky.
@@ -81,3 +81,11 @@ STR_TOWNBOX_NOGROWTH            :Převez {SILVER}{CARGO_LIST}{BLACK} z tohoto m�
 STR_ETERNAL_LOVE_OUTSTANDING    :perfektní
 STR_ETERNAL_LOVE_GOOD           :dobré
 STR_ETERNAL_LOVE_POOR           :zlé
+
+##### CIRS ECONOMIES #####
+STR_ECONOMY_CIRS_BASIC_TEMPERATE:CIRS Temperate Basic
+STR_ECONOMY_CIRS_BASIC_ARCTIC   :CIRS Arctic Basic
+STR_ECONOMY_CIRS_BASIC_TROPIC   :CIRS Tropic Basic
+STR_ECONOMY_CIRS_IAHC           :CIRS In A Hot Country
+STR_ECONOMY_CIRS_STEELTOWN      :CIRS Steeltown
+STR_ECONOMY_CIRS_MILD_MILD_WEST :CIRS Mild Mild West
