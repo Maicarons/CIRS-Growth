@@ -128,3 +128,67 @@ STR_ECONOMY_CIRS_MILD_MILD_WEST :CIRS Mild Mild West
 STR_ETERNAL_LOVE_OUTSTANDING    :exceptionnel
 STR_ETERNAL_LOVE_GOOD           :bon
 STR_ETERNAL_LOVE_POOR           :mauvais
+
+##### SETTINGS MENU #####
+STR_SETTINGS_DESC_TOWN_INFO_MODE :Mode d'affichage des informations de la ville
+STR_SETTINGS_DESC_GOAL_SCALE_FACTOR :Niveau de difficulté (facile = 60, normal = 100, difficile = 140)
+STR_SETTINGS_DESC_USE_TOWN_SIGN :Afficher le taux de croissance sous les noms de villes
+STR_SETTINGS_DESC_ETERNAL_LOVE :Amour éternel des villes
+STR_SETTINGS_DESC_CARGO_6_CATEGORY :Cargaisons : utiliser 6 catégories pour les économies prises en charge
+STR_SETTINGS_DESC_CARGO_RANDOMIZATION :Randomisation : type
+STR_SETTINGS_DESC_NEAR_CARGO_PROBABILITY :Randomisation : probabilité d'utiliser des cargaisons proches [%]
+STR_SETTINGS_DESC_DISPLAY_CARGO :Randomisation : afficher les cargaisons des villes dès le départ
+STR_SETTINGS_DESC_RAW_INDUSTRY_DENSITY :Stabilisateur d'industries : densité des industries primaires
+STR_SETTINGS_DESC_LIMIT_MIN_TRANSPORT :Limite de croissance : pourcentage minimum de cargaison transportée depuis la ville
+STR_SETTINGS_DESC_TOWN_SIZE_THRESHOLD :Limite de croissance : taille minimale de la ville avant application des limites
+STR_SETTINGS_DESC_LIMITER_DELAY :Limite de croissance : arrêter la croissance après un certain nombre de mois
+STR_SETTINGS_DESC_SUBSIDIES_TYPE :Subventions : créer des subventions pour les villes contributrices
+STR_SETTINGS_DESC_CATEGORY_1_MIN_POP :Catégorie 1 : demande de population minimale (-1 = défaut)
+STR_SETTINGS_DESC_CATEGORY_2_MIN_POP :Catégorie 2 : demande de population minimale (-1 = défaut)
+STR_SETTINGS_DESC_CATEGORY_3_MIN_POP :Catégorie 3 : demande de population minimale (-1 = défaut)
+STR_SETTINGS_DESC_CATEGORY_4_MIN_POP :Catégorie 4 : demande de population minimale (-1 = défaut)
+STR_SETTINGS_DESC_CATEGORY_5_MIN_POP :Catégorie 5 : demande de population minimale (-1 = défaut)
+STR_SETTINGS_DESC_CATEGORY_6_MIN_POP :Catégorie 6 : demande de population minimale (-1 = défaut)
+STR_SETTINGS_DESC_TOWN_GROWTH_FACTOR :Expert : facteur de croissance de la ville
+STR_SETTINGS_DESC_SUPPLY_IMPACTING_PART :Expert : pourcentage minimum atteint pour la croissance TGR
+STR_SETTINGS_DESC_EXPONENTIALITY_FACTOR :Expert : facteur d'exponentialité de la croissance TGR
+STR_SETTINGS_DESC_LOWEST_TOWN_GROWTH_RATE :Expert : TGR le plus lent si les besoins ne sont pas satisfaits
+STR_SETTINGS_DESC_ALLOW_0_DAYS_GROWTH :Expert : autoriser une croissance de 0 jour
+STR_SETTINGS_DESC_LOG_LEVEL :Débogage : niveau de journalisation (plus élevé = plus de détails)
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_1 :Automatique
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_2 :Livraisons par catégorie
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_3 :Liste des cargaisons
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_4 :Combiné
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_5 :Liste complète des cargaisons
+STR_SETTINGS_LABEL_ETERNAL_LOVE_0 :Désactivé
+STR_SETTINGS_LABEL_ETERNAL_LOVE_1 :Exceptionnel
+STR_SETTINGS_LABEL_ETERNAL_LOVE_2 :Bien
+STR_SETTINGS_LABEL_ETERNAL_LOVE_3 :Médiocre
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_1 :Aucune
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_2 :Industries décroissantes
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_3 :Industries croissantes
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_4 :1 par catégorie
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_5 :2 par catégorie
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_6 :3 par catégorie
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_7 :5 par catégorie
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_8 :7 par catégorie
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_9 :1-2 par catégorie
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_10 :1-3 par catégorie
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_11 :2-3 par catégorie
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_12 :3-5 par catégorie
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_13 :3-7 par catégorie
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_14 :Décroissant
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_15 :Croissant
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_0 :Financement seulement
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_1 :Minimal
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_2 :Très faible
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_3 :Faible
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_4 :Normal
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_5 :Élevé
+STR_SETTINGS_LABEL_SUBSIDIES_TYPE_0 :Aucune
+STR_SETTINGS_LABEL_SUBSIDIES_TYPE_1 :Toutes
+STR_SETTINGS_LABEL_SUBSIDIES_TYPE_2 :Passagers
+STR_SETTINGS_LABEL_SUBSIDIES_TYPE_3 :Cargaisons
+STR_SETTINGS_LABEL_LOG_LEVEL_1 :1 : Infos
+STR_SETTINGS_LABEL_LOG_LEVEL_2 :2 : Cargaisons
+STR_SETTINGS_LABEL_LOG_LEVEL_3 :3 : Débogage

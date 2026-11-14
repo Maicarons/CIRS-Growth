@@ -35,7 +35,19 @@ Currently available languages:
 - Russian (Shkarlatov)
 - Ukrainian (mortiy)
 
-If you want to contribute to a translation, you can do it by modifying a file [english.txt](lang/english.txt) and posting it to the forum topic or creating a new issue/pull request with this file included. All instances of `{STRING[number]}` need to be replaced by `{STRING}` in all other languages.
+If you want to contribute to a translation, you can do it by modifying a file [english.txt](lang/english.txt) and posting it to the forum topic or creating a new issue/pull request with this file included. All instances of `{STRING[number]}` need to be replaced by `{STRING}` in all other languages. The settings-menu strings are the `STR_SETTINGS_*` keys at the end of each language file.
+
+### Settings menu translations
+
+OpenTTD captures Game Script setting descriptions and drop-down labels as plain strings when it **scans** the script, before any language is loaded, so the settings menu cannot be translated at runtime. CIRS Growth keeps these strings as `STR_SETTINGS_*` keys in `lang/*.txt` and bakes one language into each `.tar` at build time. `tools/gen_settings.py` generates `settings_text.nut` (loaded by `info.nut` via `require()`), and `make_tar.py` calls it before packing:
+
+```sh
+python make_tar.py --lang english              # CIRS_Growth-13.0.tar (default / BaNaNaS)
+python make_tar.py --lang simplified_chinese  # CIRS_Growth-13.0-simplified_chinese.tar
+python make_tar.py --all-langs                # one .tar per language (12 total)
+```
+
+The default archive has an English settings menu; download the build matching your OpenTTD language for a localized one. All 12 language files are still included in every `.tar`, so in-game StoryBook, town signs and other `GSText` strings follow the game's language normally. The settings menu is the only text fixed at build time.
 
 ## License
 

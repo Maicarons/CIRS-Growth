@@ -188,3 +188,67 @@ STR_SILVER                      :{SILVER}
 
 STR_EMPTY                       :
 STR_STRING                      :{STRING}
+
+##### SETTINGS MENU #####
+STR_SETTINGS_DESC_TOWN_INFO_MODE :Режим відображення інформації про місто
+STR_SETTINGS_DESC_GOAL_SCALE_FACTOR :Рівень складності (легкий = 60, звичайний = 100, важкий = 140)
+STR_SETTINGS_DESC_USE_TOWN_SIGN :Показувати текст темпу зростання під назвами міст
+STR_SETTINGS_DESC_ETERNAL_LOVE :Вічна любов міст
+STR_SETTINGS_DESC_CARGO_6_CATEGORY :Вантажі: Використовувати 6 категорій вантажів для підтримуваних економік
+STR_SETTINGS_DESC_CARGO_RANDOMIZATION :Випадковість: Тип
+STR_SETTINGS_DESC_NEAR_CARGO_PROBABILITY :Випадковість: Ймовірність використання близьких типів вантажів [%]
+STR_SETTINGS_DESC_DISPLAY_CARGO :Випадковість: Показувати вантажі міст із самого початку
+STR_SETTINGS_DESC_RAW_INDUSTRY_DENSITY :Стабілізатор промисловості: Щільність видобувної промисловості
+STR_SETTINGS_DESC_LIMIT_MIN_TRANSPORT :Обмеження зростання: Мінімальний відсоток вивезеного з міста вантажу
+STR_SETTINGS_DESC_TOWN_SIZE_THRESHOLD :Обмеження зростання: Мінімальний розмір міста до введення обмежень
+STR_SETTINGS_DESC_LIMITER_DELAY :Обмеження зростання: Зупинити зростання через задану кількість місяців
+STR_SETTINGS_DESC_SUBSIDIES_TYPE :Субсидії: Створювати субсидії для міст-учасників
+STR_SETTINGS_DESC_CATEGORY_1_MIN_POP :Категорія 1: Мінімальна потреба в населенні (-1 = за замовчуванням)
+STR_SETTINGS_DESC_CATEGORY_2_MIN_POP :Категорія 2: Мінімальна потреба в населенні (-1 = за замовчуванням)
+STR_SETTINGS_DESC_CATEGORY_3_MIN_POP :Категорія 3: Мінімальна потреба в населенні (-1 = за замовчуванням)
+STR_SETTINGS_DESC_CATEGORY_4_MIN_POP :Категорія 4: Мінімальна потреба в населенні (-1 = за замовчуванням)
+STR_SETTINGS_DESC_CATEGORY_5_MIN_POP :Категорія 5: Мінімальна потреба в населенні (-1 = за замовчуванням)
+STR_SETTINGS_DESC_CATEGORY_6_MIN_POP :Категорія 6: Мінімальна потреба в населенні (-1 = за замовчуванням)
+STR_SETTINGS_DESC_TOWN_GROWTH_FACTOR :Експерт: коефіцієнт зростання міста
+STR_SETTINGS_DESC_SUPPLY_IMPACTING_PART :Експерт: мінімальний виконаний відсоток для зростання TGR
+STR_SETTINGS_DESC_EXPONENTIALITY_FACTOR :Експерт: коефіцієнт експоненційності зростання TGR
+STR_SETTINGS_DESC_LOWEST_TOWN_GROWTH_RATE :Експерт: найповільніше TGR при невиконанні вимог
+STR_SETTINGS_DESC_ALLOW_0_DAYS_GROWTH :Експерт: дозволити зростання за 0 днів
+STR_SETTINGS_DESC_LOG_LEVEL :Налагодження: Рівень журналу (вищий = більше виводу)
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_1 :Автоматично
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_2 :Постачання за категоріями
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_3 :Список вантажів
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_4 :Комбінований
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_5 :Повний список вантажів
+STR_SETTINGS_LABEL_ETERNAL_LOVE_0 :Вимкнено
+STR_SETTINGS_LABEL_ETERNAL_LOVE_1 :Відмінно
+STR_SETTINGS_LABEL_ETERNAL_LOVE_2 :Добре
+STR_SETTINGS_LABEL_ETERNAL_LOVE_3 :Погано
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_1 :Немає
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_2 :Промисловість за спаданням
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_3 :Промисловість за зростанням
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_4 :1 на категорію
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_5 :2 на категорію
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_6 :3 на категорию
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_7 :5 на категорію
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_8 :7 на категорію
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_9 :1-2 на категорію
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_10 :1-3 на категорію
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_11 :2-3 на категорію
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_12 :3-5 на категорію
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_13 :3-7 на категорію
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_14 :За спаданням
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_15 :За зростанням
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_0 :Лише фінансування
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_1 :Мінімальна
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_2 :Дуже низька
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_3 :Низька
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_4 :Звичайна
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_5 :Висока
+STR_SETTINGS_LABEL_SUBSIDIES_TYPE_0 :Немає
+STR_SETTINGS_LABEL_SUBSIDIES_TYPE_1 :Усі
+STR_SETTINGS_LABEL_SUBSIDIES_TYPE_2 :Пасажири
+STR_SETTINGS_LABEL_SUBSIDIES_TYPE_3 :Вантажі
+STR_SETTINGS_LABEL_LOG_LEVEL_1 :1: Інфо
+STR_SETTINGS_LABEL_LOG_LEVEL_2 :2: Вантажі
+STR_SETTINGS_LABEL_LOG_LEVEL_3 :3: Налагодження

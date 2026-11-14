@@ -2,3 +2,5 @@
 *.tar
 slnx.sqlite
 .suo
+__pycache__/
+*.pyc

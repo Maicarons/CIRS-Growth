@@ -4,6 +4,10 @@ Version 13.0 (2026/11/14)
   Basic, Arctic Basic, Tropic Basic, In A Hot Country, Steeltown, Mild Mild West)
 - new: passenger and mail cargo slots are now detected by cargo label, so
   economies with non-standard cargo IDs work in every randomization mode
+- new: localized settings menu - all setting descriptions and drop-down
+  labels are now STR_SETTINGS_* keys in lang/*.txt; make_tar.py --lang <name>
+  (or --all-langs) builds a .tar with the settings menu in that language
+  (12 languages; default archive is English)
 - mod: Renamed from "Renewed Village Growth" to "CIRS Growth"
 - mod: Repository moved to https://github.com/Maicarons/CIRS-Growth
 

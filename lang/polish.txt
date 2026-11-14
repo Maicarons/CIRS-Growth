@@ -63,3 +63,67 @@ STR_ECONOMY_CIRS_BASIC_TROPIC   :CIRS Tropic Basic
 STR_ECONOMY_CIRS_IAHC           :CIRS In A Hot Country
 STR_ECONOMY_CIRS_STEELTOWN      :CIRS Steeltown
 STR_ECONOMY_CIRS_MILD_MILD_WEST :CIRS Mild Mild West
+
+##### SETTINGS MENU #####
+STR_SETTINGS_DESC_TOWN_INFO_MODE :Tryb wyświetlania informacji o mieście
+STR_SETTINGS_DESC_GOAL_SCALE_FACTOR :Poziom trudności (łatwy = 60, normalny = 100, trudny = 140)
+STR_SETTINGS_DESC_USE_TOWN_SIGN :Pokaż tekst tempa wzrostu pod nazwami miast
+STR_SETTINGS_DESC_ETERNAL_LOVE :Wieczna miłość miast
+STR_SETTINGS_DESC_CARGO_6_CATEGORY :Ładunek: Użyj 6 kategorii ładunków dla obsługiwanych gospodarek
+STR_SETTINGS_DESC_CARGO_RANDOMIZATION :Losowość: Typ
+STR_SETTINGS_DESC_NEAR_CARGO_PROBABILITY :Losowość: Prawdopodobieństwo użycia pobliskich typów ładunku [%]
+STR_SETTINGS_DESC_DISPLAY_CARGO :Losowość: Pokaż ładunki miast od początku
+STR_SETTINGS_DESC_RAW_INDUSTRY_DENSITY :Stabilizator przemysłu: Gęstość przemysłu surowcowego
+STR_SETTINGS_DESC_LIMIT_MIN_TRANSPORT :Ograniczenie wzrostu: Minimalny procent ładunku wywiezionego z miasta
+STR_SETTINGS_DESC_TOWN_SIZE_THRESHOLD :Ograniczenie wzrostu: Minimalna wielkość miasta przed zastosowaniem ograniczeń
+STR_SETTINGS_DESC_LIMITER_DELAY :Ograniczenie wzrostu: Zatrzymaj wzrost po określonej liczbie miesięcy
+STR_SETTINGS_DESC_SUBSIDIES_TYPE :Dotacje: Twórz dotacje dla miast wnoszących wkład
+STR_SETTINGS_DESC_CATEGORY_1_MIN_POP :Kategoria 1: Minimalne zapotrzebowanie na populację (-1 = domyślne)
+STR_SETTINGS_DESC_CATEGORY_2_MIN_POP :Kategoria 2: Minimalne zapotrzebowanie na populację (-1 = domyślne)
+STR_SETTINGS_DESC_CATEGORY_3_MIN_POP :Kategoria 3: Minimalne zapotrzebowanie na populację (-1 = domyślne)
+STR_SETTINGS_DESC_CATEGORY_4_MIN_POP :Kategoria 4: Minimalne zapotrzebowanie na populację (-1 = domyślne)
+STR_SETTINGS_DESC_CATEGORY_5_MIN_POP :Kategoria 5: Minimalne zapotrzebowanie na populację (-1 = domyślne)
+STR_SETTINGS_DESC_CATEGORY_6_MIN_POP :Kategoria 6: Minimalne zapotrzebowanie na populację (-1 = domyślne)
+STR_SETTINGS_DESC_TOWN_GROWTH_FACTOR :Ekspert: współczynnik wzrostu miasta
+STR_SETTINGS_DESC_SUPPLY_IMPACTING_PART :Ekspert: minimalny spełniony procent dla wzrostu TGR
+STR_SETTINGS_DESC_EXPONENTIALITY_FACTOR :Ekspert: współczynnik wykładniczy wzrostu TGR
+STR_SETTINGS_DESC_LOWEST_TOWN_GROWTH_RATE :Ekspert: najwolniejsze TGR przy niespełnieniu wymagań
+STR_SETTINGS_DESC_ALLOW_0_DAYS_GROWTH :Ekspert: zezwól na wzrost w 0 dni
+STR_SETTINGS_DESC_LOG_LEVEL :Debugowanie: Poziom logu (wyższy = więcej szczegółów)
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_1 :Automatycznie
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_2 :Dostawy według kategorii
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_3 :Lista ładunków
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_4 :Łączone
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_5 :Pełna lista ładunków
+STR_SETTINGS_LABEL_ETERNAL_LOVE_0 :Wyłączone
+STR_SETTINGS_LABEL_ETERNAL_LOVE_1 :Wybitne
+STR_SETTINGS_LABEL_ETERNAL_LOVE_2 :Dobre
+STR_SETTINGS_LABEL_ETERNAL_LOVE_3 :Słabe
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_1 :Brak
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_2 :Przemysł malejąco
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_3 :Przemysł rosnąco
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_4 :1 na kategorię
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_5 :2 na kategorię
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_6 :3 na kategorię
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_7 :5 na kategorię
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_8 :7 na kategorię
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_9 :1-2 na kategorię
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_10 :1-3 na kategorię
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_11 :2-3 na kategorię
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_12 :3-5 na kategorię
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_13 :3-7 na kategorię
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_14 :Malejąco
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_15 :Rosnąco
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_0 :Tylko finansowanie
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_1 :Minimalna
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_2 :Bardzo niska
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_3 :Niska
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_4 :Normalna
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_5 :Wysoka
+STR_SETTINGS_LABEL_SUBSIDIES_TYPE_0 :Brak
+STR_SETTINGS_LABEL_SUBSIDIES_TYPE_1 :Wszystkie
+STR_SETTINGS_LABEL_SUBSIDIES_TYPE_2 :Pasażerowie
+STR_SETTINGS_LABEL_SUBSIDIES_TYPE_3 :Ładunek
+STR_SETTINGS_LABEL_LOG_LEVEL_1 :1: Informacje
+STR_SETTINGS_LABEL_LOG_LEVEL_2 :2: Ładunek
+STR_SETTINGS_LABEL_LOG_LEVEL_3 :3: Debugowanie

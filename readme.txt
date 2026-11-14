@@ -161,6 +161,11 @@ Have fun !
 
 2. Settings
 
+Note: the settings menu language is fixed when this Game Script
+archive is built. Download the CIRS_Growth-13.0-<language>.tar
+matching your OpenTTD language for a translated settings menu;
+the default CIRS_Growth-13.0.tar has an English settings menu.
+
 Normal settings:
 - "Town info display mode": changes the mode of displaying town
   information

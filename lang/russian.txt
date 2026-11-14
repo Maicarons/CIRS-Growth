@@ -85,3 +85,67 @@ STR_ECONOMY_CIRS_BASIC_TROPIC   :CIRS Tropic Basic
 STR_ECONOMY_CIRS_IAHC           :CIRS In A Hot Country
 STR_ECONOMY_CIRS_STEELTOWN      :CIRS Steeltown
 STR_ECONOMY_CIRS_MILD_MILD_WEST :CIRS Mild Mild West
+
+##### SETTINGS MENU #####
+STR_SETTINGS_DESC_TOWN_INFO_MODE :Режим отображения информации о городе
+STR_SETTINGS_DESC_GOAL_SCALE_FACTOR :Уровень сложности (лёгкий = 60, обычный = 100, тяжёлый = 140)
+STR_SETTINGS_DESC_USE_TOWN_SIGN :Показывать текст темпа роста под названиями городов
+STR_SETTINGS_DESC_ETERNAL_LOVE :Вечная любовь городов
+STR_SETTINGS_DESC_CARGO_6_CATEGORY :Грузы: Использовать 6 категорий грузов для поддерживаемых экономик
+STR_SETTINGS_DESC_CARGO_RANDOMIZATION :Случайность: Тип
+STR_SETTINGS_DESC_NEAR_CARGO_PROBABILITY :Случайность: Вероятность использовать близкие типы грузов [%]
+STR_SETTINGS_DESC_DISPLAY_CARGO :Случайность: Показывать грузы городов с самого начала
+STR_SETTINGS_DESC_RAW_INDUSTRY_DENSITY :Стабилизатор промышленности: Плотность добывающей промышленности
+STR_SETTINGS_DESC_LIMIT_MIN_TRANSPORT :Ограничение роста: Минимальный процент вывезенного из города груза
+STR_SETTINGS_DESC_TOWN_SIZE_THRESHOLD :Ограничение роста: Минимальный размер города до введения ограничений
+STR_SETTINGS_DESC_LIMITER_DELAY :Ограничение роста: Остановить рост через заданное число месяцев
+STR_SETTINGS_DESC_SUBSIDIES_TYPE :Субсидии: Создавать субсидии для городов-участников
+STR_SETTINGS_DESC_CATEGORY_1_MIN_POP :Категория 1: Минимальная потребность в населении (-1 = по умолчанию)
+STR_SETTINGS_DESC_CATEGORY_2_MIN_POP :Категория 2: Минимальная потребность в населении (-1 = по умолчанию)
+STR_SETTINGS_DESC_CATEGORY_3_MIN_POP :Категория 3: Минимальная потребность в населении (-1 = по умолчанию)
+STR_SETTINGS_DESC_CATEGORY_4_MIN_POP :Категория 4: Минимальная потребность в населении (-1 = по умолчанию)
+STR_SETTINGS_DESC_CATEGORY_5_MIN_POP :Категория 5: Минимальная потребность в населении (-1 = по умолчанию)
+STR_SETTINGS_DESC_CATEGORY_6_MIN_POP :Категория 6: Минимальная потребность в населении (-1 = по умолчанию)
+STR_SETTINGS_DESC_TOWN_GROWTH_FACTOR :Эксперт: коэффициент роста города
+STR_SETTINGS_DESC_SUPPLY_IMPACTING_PART :Эксперт: минимальный выполненный процент для роста TGR
+STR_SETTINGS_DESC_EXPONENTIALITY_FACTOR :Эксперт: коэффициент экспоненциальности роста TGR
+STR_SETTINGS_DESC_LOWEST_TOWN_GROWTH_RATE :Эксперт: самый медленный TGR при невыполнении требований
+STR_SETTINGS_DESC_ALLOW_0_DAYS_GROWTH :Эксперт: разрешить рост за 0 дней
+STR_SETTINGS_DESC_LOG_LEVEL :Отладка: Уровень журнала (выше = больше вывода)
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_1 :Автоматически
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_2 :Поставки по категориям
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_3 :Список грузов
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_4 :Комбинированный
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_5 :Полный список грузов
+STR_SETTINGS_LABEL_ETERNAL_LOVE_0 :Выключено
+STR_SETTINGS_LABEL_ETERNAL_LOVE_1 :Превосходно
+STR_SETTINGS_LABEL_ETERNAL_LOVE_2 :Хорошо
+STR_SETTINGS_LABEL_ETERNAL_LOVE_3 :Плохо
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_1 :Нет
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_2 :Промышленность по убыванию
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_3 :Промышленность по возрастанию
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_4 :1 на категорию
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_5 :2 на категорию
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_6 :3 на категорию
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_7 :5 на категорию
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_8 :7 на категорию
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_9 :1-2 на категорию
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_10 :1-3 на категорию
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_11 :2-3 на категорию
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_12 :3-5 на категорию
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_13 :3-7 на категорию
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_14 :По убыванию
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_15 :По возрастанию
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_0 :Только финансирование
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_1 :Минимальная
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_2 :Очень низкая
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_3 :Низкая
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_4 :Обычная
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_5 :Высокая
+STR_SETTINGS_LABEL_SUBSIDIES_TYPE_0 :Нет
+STR_SETTINGS_LABEL_SUBSIDIES_TYPE_1 :Все
+STR_SETTINGS_LABEL_SUBSIDIES_TYPE_2 :Пассажиры
+STR_SETTINGS_LABEL_SUBSIDIES_TYPE_3 :Грузы
+STR_SETTINGS_LABEL_LOG_LEVEL_1 :1: Инфо
+STR_SETTINGS_LABEL_LOG_LEVEL_2 :2: Грузы
+STR_SETTINGS_LABEL_LOG_LEVEL_3 :3: Отладка

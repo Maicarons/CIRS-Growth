@@ -122,3 +122,67 @@ STR_ECONOMY_CIRS_MILD_MILD_WEST :CIRS Mild Mild West
 STR_ETERNAL_LOVE_OUTSTANDING    :Excepcional
 STR_ETERNAL_LOVE_GOOD           :Boa
 STR_ETERNAL_LOVE_POOR           :Pobre
+
+##### SETTINGS MENU #####
+STR_SETTINGS_DESC_TOWN_INFO_MODE :Modo de mostrar a información da vila
+STR_SETTINGS_DESC_GOAL_SCALE_FACTOR :Nivel de dificultade (doado = 60, normal = 100, difícil = 140)
+STR_SETTINGS_DESC_USE_TOWN_SIGN :Mostrar o texto da taxa de crecemento baixo os nomes das vilas
+STR_SETTINGS_DESC_ETERNAL_LOVE :Amor eterno das vilas
+STR_SETTINGS_DESC_CARGO_6_CATEGORY :Carga: usar 6 categorías de carga para as economías compatibles
+STR_SETTINGS_DESC_CARGO_RANDOMIZATION :Aleatorización: tipo
+STR_SETTINGS_DESC_NEAR_CARGO_PROBABILITY :Aleatorización: probabilidade de usar tipos de carga próximos [%]
+STR_SETTINGS_DESC_DISPLAY_CARGO :Aleatorización: mostrar as cargas das vilas desde o inicio
+STR_SETTINGS_DESC_RAW_INDUSTRY_DENSITY :Estabilizador de industrias: densidade de industrias primarias
+STR_SETTINGS_DESC_LIMIT_MIN_TRANSPORT :Límite de crecemento: porcentaxe mínima de carga transportada desde a vila
+STR_SETTINGS_DESC_TOWN_SIZE_THRESHOLD :Límite de crecemento: tamaño mínimo da vila antes de aplicar os límites
+STR_SETTINGS_DESC_LIMITER_DELAY :Límite de crecemento: deter o crecemento tras un número de meses
+STR_SETTINGS_DESC_SUBSIDIES_TYPE :Subvencións: crear subvencións para as vilas contribuíntes
+STR_SETTINGS_DESC_CATEGORY_1_MIN_POP :Categoría 1: demanda mínima de poboación (-1 = predeterminado)
+STR_SETTINGS_DESC_CATEGORY_2_MIN_POP :Categoría 2: demanda mínima de poboación (-1 = predeterminado)
+STR_SETTINGS_DESC_CATEGORY_3_MIN_POP :Categoría 3: demanda mínima de poboación (-1 = predeterminado)
+STR_SETTINGS_DESC_CATEGORY_4_MIN_POP :Categoría 4: demanda mínima de poboación (-1 = predeterminado)
+STR_SETTINGS_DESC_CATEGORY_5_MIN_POP :Categoría 5: demanda mínima de poboación (-1 = predeterminado)
+STR_SETTINGS_DESC_CATEGORY_6_MIN_POP :Categoría 6: demanda mínima de poboación (-1 = predeterminado)
+STR_SETTINGS_DESC_TOWN_GROWTH_FACTOR :Experto: factor de crecemento da vila
+STR_SETTINGS_DESC_SUPPLY_IMPACTING_PART :Experto: porcentaxe mínima cumprida para o crecemento TGR
+STR_SETTINGS_DESC_EXPONENTIALITY_FACTOR :Experto: factor de exponencialidade do crecemento TGR
+STR_SETTINGS_DESC_LOWEST_TOWN_GROWTH_RATE :Experto: TGR máis lento se non se cumpren os requisitos
+STR_SETTINGS_DESC_ALLOW_0_DAYS_GROWTH :Experto: permitir crecemento de 0 días
+STR_SETTINGS_DESC_LOG_LEVEL :Depuración: nivel de rexistro (máis alto = máis detalles)
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_1 :Automático
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_2 :Entregas por categoría
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_3 :Lista de cargas
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_4 :Combinado
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_5 :Lista completa de cargas
+STR_SETTINGS_LABEL_ETERNAL_LOVE_0 :Desactivado
+STR_SETTINGS_LABEL_ETERNAL_LOVE_1 :Excepcional
+STR_SETTINGS_LABEL_ETERNAL_LOVE_2 :Bo
+STR_SETTINGS_LABEL_ETERNAL_LOVE_3 :Pobre
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_1 :Ningunha
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_2 :Industrias descendentes
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_3 :Industrias ascendentes
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_4 :1 por categoría
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_5 :2 por categoría
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_6 :3 por categoría
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_7 :5 por categoría
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_8 :7 por categoría
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_9 :1-2 por categoría
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_10 :1-3 por categoría
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_11 :2-3 por categoría
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_12 :3-5 por categoría
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_13 :3-7 por categoría
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_14 :Descendente
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_15 :Ascendente
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_0 :Só financiamento
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_1 :Mínimo
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_2 :Moi baixa
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_3 :Baixa
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_4 :Normal
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_5 :Alta
+STR_SETTINGS_LABEL_SUBSIDIES_TYPE_0 :Ningunha
+STR_SETTINGS_LABEL_SUBSIDIES_TYPE_1 :Todas
+STR_SETTINGS_LABEL_SUBSIDIES_TYPE_2 :Pasaxeiros
+STR_SETTINGS_LABEL_SUBSIDIES_TYPE_3 :Carga
+STR_SETTINGS_LABEL_LOG_LEVEL_1 :1: Info
+STR_SETTINGS_LABEL_LOG_LEVEL_2 :2: Carga
+STR_SETTINGS_LABEL_LOG_LEVEL_3 :3: Depuración

@@ -89,3 +89,67 @@ STR_ECONOMY_CIRS_BASIC_TROPIC   :CIRS Tropic Basic
 STR_ECONOMY_CIRS_IAHC           :CIRS In A Hot Country
 STR_ECONOMY_CIRS_STEELTOWN      :CIRS Steeltown
 STR_ECONOMY_CIRS_MILD_MILD_WEST :CIRS Mild Mild West
+
+##### SETTINGS MENU #####
+STR_SETTINGS_DESC_TOWN_INFO_MODE :Režim zobrazenia informácií o meste
+STR_SETTINGS_DESC_GOAL_SCALE_FACTOR :Úroveň obtiažnosti (ľahká = 60, normálna = 100, ťažká = 140)
+STR_SETTINGS_DESC_USE_TOWN_SIGN :Zobraziť text tempa rastu pod názvami miest
+STR_SETTINGS_DESC_ETERNAL_LOVE :Večná láska miest
+STR_SETTINGS_DESC_CARGO_6_CATEGORY :Náklad: Použiť 6 kategórií nákladu pre podporované ekonomiky
+STR_SETTINGS_DESC_CARGO_RANDOMIZATION :Náhodnosť: Typ
+STR_SETTINGS_DESC_NEAR_CARGO_PROBABILITY :Náhodnosť: Pravdepodobnosť použitia blízkych typov nákladu [%]
+STR_SETTINGS_DESC_DISPLAY_CARGO :Náhodnosť: Zobraziť náklady miest od začiatku
+STR_SETTINGS_DESC_RAW_INDUSTRY_DENSITY :Stabilizátor priemyslu: Hustota surovinového priemyslu
+STR_SETTINGS_DESC_LIMIT_MIN_TRANSPORT :Obmedzenie rastu: Minimálne percento prepraveného nákladu z mesta
+STR_SETTINGS_DESC_TOWN_SIZE_THRESHOLD :Obmedzenie rastu: Minimálna veľkosť mesta pred uplatnením obmedzení
+STR_SETTINGS_DESC_LIMITER_DELAY :Obmedzenie rastu: Zastaviť rast po určitom počte mesiacov
+STR_SETTINGS_DESC_SUBSIDIES_TYPE :Dotácie: Vytvárať dotácie pre prispievajúce mestá
+STR_SETTINGS_DESC_CATEGORY_1_MIN_POP :Kategória 1: Minimálna požiadavka populácie (-1 = predvolené)
+STR_SETTINGS_DESC_CATEGORY_2_MIN_POP :Kategória 2: Minimálna požiadavka populácie (-1 = predvolené)
+STR_SETTINGS_DESC_CATEGORY_3_MIN_POP :Kategória 3: Minimálna požiadavka populácie (-1 = predvolené)
+STR_SETTINGS_DESC_CATEGORY_4_MIN_POP :Kategória 4: Minimálna požiadavka populácie (-1 = predvolené)
+STR_SETTINGS_DESC_CATEGORY_5_MIN_POP :Kategória 5: Minimálna požiadavka populácie (-1 = predvolené)
+STR_SETTINGS_DESC_CATEGORY_6_MIN_POP :Kategória 6: Minimálna požiadavka populácie (-1 = predvolené)
+STR_SETTINGS_DESC_TOWN_GROWTH_FACTOR :Expert: faktor rastu mesta
+STR_SETTINGS_DESC_SUPPLY_IMPACTING_PART :Expert: minimálne splnené percento pre rast TGR
+STR_SETTINGS_DESC_EXPONENTIALITY_FACTOR :Expert: faktor exponenciality rastu TGR
+STR_SETTINGS_DESC_LOWEST_TOWN_GROWTH_RATE :Expert: najpomalšie TGR pri nesplnení požiadaviek
+STR_SETTINGS_DESC_ALLOW_0_DAYS_GROWTH :Expert: povoliť rast za 0 dní
+STR_SETTINGS_DESC_LOG_LEVEL :Ladenie: Úroveň protokolu (vyššia = viac výpisov)
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_1 :Automaticky
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_2 :Dodávky podľa kategórií
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_3 :Zoznam nákladu
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_4 :Kombinované
+STR_SETTINGS_LABEL_TOWN_INFO_MODE_5 :Úplný zoznam nákladu
+STR_SETTINGS_LABEL_ETERNAL_LOVE_0 :Vypnuté
+STR_SETTINGS_LABEL_ETERNAL_LOVE_1 :Vynikajúce
+STR_SETTINGS_LABEL_ETERNAL_LOVE_2 :Dobré
+STR_SETTINGS_LABEL_ETERNAL_LOVE_3 :Slabé
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_1 :Žiadna
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_2 :Priemysel zostupne
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_3 :Priemysel vzostupne
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_4 :1 na kategóriu
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_5 :2 na kategóriu
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_6 :3 na kategóriu
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_7 :5 na kategóriu
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_8 :7 na kategóriu
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_9 :1-2 na kategóriu
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_10 :1-3 na kategóriu
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_11 :2-3 na kategóriu
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_12 :3-5 na kategóriu
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_13 :3-7 na kategóriu
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_14 :Zostupne
+STR_SETTINGS_LABEL_CARGO_RANDOMIZATION_15 :Vzostupne
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_0 :Iba financovanie
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_1 :Minimálna
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_2 :Veľmi nízka
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_3 :Nízka
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_4 :Normálna
+STR_SETTINGS_LABEL_RAW_INDUSTRY_DENSITY_5 :Vysoká
+STR_SETTINGS_LABEL_SUBSIDIES_TYPE_0 :Žiadne
+STR_SETTINGS_LABEL_SUBSIDIES_TYPE_1 :Všetky
+STR_SETTINGS_LABEL_SUBSIDIES_TYPE_2 :Cestujúci
+STR_SETTINGS_LABEL_SUBSIDIES_TYPE_3 :Náklad
+STR_SETTINGS_LABEL_LOG_LEVEL_1 :1: Informácie
+STR_SETTINGS_LABEL_LOG_LEVEL_2 :2: Náklad
+STR_SETTINGS_LABEL_LOG_LEVEL_3 :3: Ladenie
