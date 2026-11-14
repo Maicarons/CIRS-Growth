@@ -128,8 +128,14 @@ def generate(lang="english", out_file=None):
         lines.append("    },")
     lines.append("};")
     lines.append("")
-    with open(out_file, "w", encoding="utf-8", newline="\n") as fp:
+    # OpenTTD's Squirrel loader (src/script/squirrel.cpp LoadFile) picks the
+    # UTF-8 lexer only for files starting with a UTF-8 BOM. Without it the
+    # ASCII lexer feeds each raw byte as a separate codepoint, so non-ASCII
+    # menu text is re-encoded into mojibake. utf-8-sig writes EF BB BF for us.
+    with open(out_file, "w", encoding="utf-8-sig", newline="\n") as fp:
         fp.write("\n".join(lines))
+    with open(out_file, "rb") as fp:
+        assert fp.read(3) == b"\xef\xbb\xbf", "settings_text.nut is missing its UTF-8 BOM"
     return out_file
 
 
