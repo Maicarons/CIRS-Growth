@@ -47,7 +47,9 @@ python make_tar.py --lang simplified_chinese  # CIRS_Growth-13.0-simplified_chin
 python make_tar.py --all-langs                # one .tar per language (12 total)
 ```
 
-The default archive has an English settings menu; download the build matching your OpenTTD language for a localized one. All 12 language files are still included in every `.tar`, so in-game StoryBook, town signs and other `GSText` strings follow the game's language normally. The settings menu is the only text fixed at build time.
+The default archive (`CIRS_Growth-13.0.tar`) has an English settings menu and is the build published on BaNaNaS / *Online Content*. OpenTTD registers only one archive per script name and version, so the localized builds cannot be offered there separately; they are attached to the [GitHub Releases](https://github.com/Maicarons/CIRS-Growth/releases) instead. To use one, download the `.tar` matching your OpenTTD language, put it in your OpenTTD `game/` folder and remove any other `CIRS_Growth-13.0*.tar` there (two archives with the same name and version collide, and only the first is loaded).
+
+All 12 language files are still included in every `.tar`, so in-game StoryBook, town signs and other `GSText` strings follow the game's language normally. The settings menu is the only text fixed at build time.
 
 `settings_text.nut` is written with a UTF-8 BOM: OpenTTD's Squirrel loader selects its UTF-8 lexer only for files that start with a BOM. Without it, non-ASCII characters are read byte-by-byte and displayed as mojibake. The generator enforces this; `lang/*.txt` stays BOM-less because the game reads those with `fgets`, not Squirrel.
 
