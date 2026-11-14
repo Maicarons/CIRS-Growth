@@ -6,7 +6,7 @@
 Version: 13.0
 
 Usefull URL's:
-- repository: https://github.com/Maicarons/RenewedVillageGrowth
+- repository: https://github.com/Maicarons/CIRS-Growth
 - upstream:   https://github.com/F1rrel/RenewedVillageGrowth
 
 

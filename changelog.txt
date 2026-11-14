@@ -5,6 +5,7 @@ Version 13.0 (2026/11/14)
 - new: passenger and mail cargo slots are now detected by cargo label, so
   economies with non-standard cargo IDs work in every randomization mode
 - mod: Renamed from "Renewed Village Growth" to "CIRS Growth"
+- mod: Repository moved to https://github.com/Maicarons/CIRS-Growth
 
 
 Version 12.1 (2025/07/12)

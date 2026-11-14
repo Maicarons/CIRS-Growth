@@ -18,7 +18,7 @@ class MainClass extends GSInfo
     function GetName()                  { return "CIRS Growth"; }
     function GetShortName()             { return "CIGR"; }
     function GetDescription()           { return "Towns require various cargo deliveries to grow. Required cargos can be randomized. Town growth is limited by percentage of transported specific cargos. Adapted for the CIRS industry NewGRF set. Based on Renewed Village Growth by Firrel."; }
-    function GetURL()                   { return "https://github.com/Maicarons/RenewedVillageGrowth"; }
+    function GetURL()                   { return "https://github.com/Maicarons/CIRS-Growth"; }
     function GetVersion()               { return SELF_VERSION; }
     function GetDate()                  { return SELF_DATE; }
     function GetAPIVersion()            { return "14"; }
