@@ -5,7 +5,8 @@
 CIRS Growth is a Game Script for OpenTTD that manages town growth in a new and balanced way, making growth depend on varied cargo delivery (passengers, food, goods, ...) and sustained transportation of passengers and mail. It is an adaptation of [Renewed Village Growth](https://github.com/F1rrel/RenewedVillageGrowth) by Firrel, specifically extended to support all six economies of the [CIRS](https://github.com/Maicarons/CIRS) industry NewGRF set. The original script is itself a combination of [keoz's Renewed City Growth GS](https://www.tt-forums.net/viewtopic.php?f=65&t=69827) and [Sylf's City Growth Limiter GS](https://www.tt-forums.net/viewtopic.php?t=58238).
 
 Repository: https://github.com/Maicarons/CIRS-Growth<br/>
-Upstream: https://github.com/F1rrel/RenewedVillageGrowth
+Upstream: https://github.com/F1rrel/RenewedVillageGrowth<br/>
+Documentation: https://maicarons.github.io/CIRS/cirs-growth.html (English) - https://maicarons.github.io/CIRS/zh/cirs-growth.html (简体中文)
 
 ## Requirements
 
